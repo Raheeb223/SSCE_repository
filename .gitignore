@@ -1,0 +1,22 @@
+outputs/
+__pycache__/
+
+# LaTeX build files
+manuscript/*.aux
+manuscript/*.log
+manuscript/*.out
+manuscript/build.out
+
+# Raw full-survey file (includes school-stage responses): never share
+data/SSCE_survey.csv
+# Local-only files
+.claude/
+manuscript/SSCE_university_overleaf.zip
+docs/university_version_report.md
+
+# LaTeX bibliography build files
+manuscript/*.bbl
+manuscript/*.blg
+
+# Manuscript: kept local, not shared
+manuscript/
